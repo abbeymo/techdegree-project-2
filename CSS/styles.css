@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding:0;
-  text-align: left;
+  text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
   color: #474446;
   background-color: #ddc1d3;
@@ -32,7 +32,6 @@ a:hover {
 h2
  {
   display: block;
-  max-width: 350px;
   text-align: center;
 }
 
@@ -40,14 +39,12 @@ h2
   font-family: 'Spirax', cursive;
   text-shadow: 2px 2px 8px #222;
   color: #ad399a;
-  margin: 15px;
+
 }
 
 .nav {
   background-color: lightgrey;
   border: solid black;
-  width: 100%;
-  margin-right: 15px;
   }
 
 ul {
@@ -66,16 +63,15 @@ li {
 
 .introduction {
   display: block;
-  margin: 15px;
   overflow: hidden;
+  }
+
+.profile-image {
+    width: 400px;
   }
 
 .bio {
   font-size: 26px;
-      }
-
-.profile-image {
-  width: 400px;
   }
 
 .portfolio {
@@ -161,7 +157,7 @@ footer {
 
 /* Styles for larger screens */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
 
 .name {
@@ -169,9 +165,10 @@ footer {
   display: inline-block;
 }
 
-.main-nav a {
-  float: left;
+.nav a {
+  float: right;
   display: inline;
+
 
 }
 
@@ -181,7 +178,9 @@ footer {
   clear: both;
   }
 }
-@media (min-width: 1025) {
+
+
+@media (min-width: 1024) {
 
 
 }
