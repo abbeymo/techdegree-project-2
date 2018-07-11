@@ -160,18 +160,6 @@ footer {
 @media (min-width: 768px) {
 
 
-.name {
-  float: left;
-  display: inline-block;
-}
-
-.nav a {
-  float: right;
-  display: inline;
-
-
-}
-
 .clearfix::after {
   content: "";
   display: table;
@@ -180,7 +168,15 @@ footer {
 }
 
 
-@media (min-width: 1024) {
+@media (min-width: 1024px) {
 
+  .name {
+    float: left;
+    display: inline-block;
+  }
 
+  .nav a {
+    float: right;
+    display: inline;
+  }
 }
