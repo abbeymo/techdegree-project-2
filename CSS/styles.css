@@ -153,6 +153,10 @@ footer {
   padding-top: 15px;
   padding-bottom: 15px;
 
+  .footer-nav li {
+    display: none;
+  }
+
 }
 
 /* Styles for larger screens */
@@ -170,7 +174,7 @@ body {
   margin-left: 45px;
     }
 
-  .nav li {
+.nav li {
     display: inline-block;
     padding-right: 10px;
     padding-left: 10px;
@@ -185,6 +189,11 @@ body {
 .page-icon {
   padding: 15px;
 }
+
+.card p:last-of-type{
+  height: 100px;
+}
+
 
 .clearfix::after {
   content: "";
