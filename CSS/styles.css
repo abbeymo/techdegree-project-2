@@ -159,6 +159,32 @@ footer {
 
 @media (min-width: 768px) {
 
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav {
+  margin-right: 45px;
+  margin-bottom: 25px;
+  margin-left: 45px;
+    }
+
+  .nav li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+
+.card {
+  float: left;
+  width: 50%;
+  padding-right: 10px;
+    }
+
+.page-icon {
+  padding: 15px;
+}
 
 .clearfix::after {
   content: "";
@@ -175,8 +201,4 @@ footer {
     display: inline-block;
   }
 
-  .nav a {
-    float: right;
-    display: inline;
   }
-}
