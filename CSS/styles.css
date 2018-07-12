@@ -152,12 +152,15 @@ footer {
   display: inline-block;
   padding-top: 15px;
   padding-bottom: 15px;
+  }
+
+.footer-nav {
+  float: right;
+}
 
   .footer-nav li {
     display: none;
-  }
-
-}
+      }
 
 /* Styles for larger screens */
 
@@ -194,6 +197,9 @@ body {
   height: 100px;
 }
 
+.footer-nav li {
+  display: inline;
+    }
 
 .clearfix::after {
   content: "";
