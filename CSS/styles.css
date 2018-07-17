@@ -35,6 +35,12 @@ h2
   text-align: center;
 }
 
+.card {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .name {
   font-family: 'Spirax', cursive;
   text-shadow: 2px 2px 8px #222;
@@ -45,6 +51,7 @@ h2
 .nav {
   background-color: lightgrey;
   border: solid black;
+  margin: 50px;
   }
 
 ul {
@@ -145,6 +152,7 @@ footer {
   text-align: center;
   float: left;
   margin-top: 5px;
+  margin-left: 15px;
   float: left;
   }
 
@@ -158,9 +166,14 @@ footer {
   float: right;
 }
 
-  .footer-nav li {
-    display: none;
-      }
+.footer-nav li {
+  display: none;
+}
+
+.footer-nav li:first-child{
+  display: inline;
+}
+
 
 /* Styles for larger screens */
 
@@ -193,13 +206,23 @@ body {
   padding: 15px;
 }
 
+.page-description {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .card p:last-of-type{
-  height: 100px;
+  height: 150px;
 }
 
 .footer-nav li {
   display: inline;
-    }
+}
+
+.footer-nav li:first-child {
+  display: none;
+}
 
 .clearfix::after {
   content: "";
@@ -211,9 +234,57 @@ body {
 
 @media (min-width: 1024px) {
 
-  .name {
-    float: left;
-    display: inline-block;
-  }
+body {
+  width: 80%;
+}
 
+.name {
+  float: left;
+  text-align: left;
+    }
+
+.main-header {
+  margin-bottom: 15px;
+}
+
+.nav {
+  float: right;
+  margin: 0;
+      }
+
+.introduction {
+  display: inline-block;
+  text-align: left;
+}
+
+.page-description {
+  text-align: left;
+}
+
+.bio {
+  float: left;
+  max-width: 50%;
+  margin-top: 0;
+    }
+
+.profile-image {
+  float: right;
+}
+
+.card {
+  float: left;
+  width: 33%;
+  padding-right: 10px;
+    }
+
+
+.page-icon {
+  padding: 15px 0;
+  width: 100%;
+}
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
   }
